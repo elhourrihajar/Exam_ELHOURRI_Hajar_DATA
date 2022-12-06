@@ -3,8 +3,8 @@ resource "aws_instance" "ec2_vm" {
   instance_type = "t3.micro"
   key_name      = "hajar-el-hourri-key"
   tags = {
-    Name = "Etudiant"
-    Owner = "elorihajar@gmail.com"
+    Name = "Etudiant-elorihajar@gmail.com"
+    Owner = "hajar"
   }
   
   vpc_security_group_ids = ["${aws_security_group.default.id}"] 
