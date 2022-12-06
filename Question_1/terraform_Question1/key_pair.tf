@@ -1,0 +1,5 @@
+resource "aws_key_pair" "hajar-el-hourri-key" {
+  key_name   = "hajar-el-hourri-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0q1+joGBsF+IlJ5bS7AtlFWkEjE5Dm8qtsJz80nrJDVTaDNbI3PErulJPRVXrf1PRKIzlXbbi0HaVSnU/0nAIr1ViipnRxASftn2kJ5Me/QUE5W73tq0dxyC7KrP1YsrVXplCk/H9Ld9pO+pyH79rTtt1jqbyXs40Kezq9n296d34J8f4Kzh5FXX2aaNJjkrZqlr2tY7ArziMAuOxjWti5HcKkDGx4s7Gwt3YwT2rz8gEpJxuGuYGr3yJnzN+7MDLGWJndcfPX6Gacu/v0yT0jpcWdFdIWDwrc+oGHTHxpPmu9B6jn9DPM7BzsWSjmuXlwuJ3+2zHatKHKXLxWDVBXjNtSaV5tN/4E+bEZ9B56idLZcYZwre7SjroVthw3J8+CLBbt4rJ3GAHpJmMiF2D8P9GQ/QD9ywwXQA5uruuYzSkWInErOLE97jEW5B98P5m9nVm6coY1aFntCTdeeAgDWADLGOmrNJu5fkfR9v7VlukRAY77g4AWTvmNN+87T8= elori@LAPTOP-PSQO0PEB"
+}
+
